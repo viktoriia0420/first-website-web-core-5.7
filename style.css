@@ -1,0 +1,293 @@
+body {
+  font-family: 'barlow';
+  background-color: #EFF6FF;
+    
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: -1;
+}
+
+.main_image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -2;
+}
+
+
+main {
+  position: relative;
+  text-align: left;
+  margin-left: 5%;
+  width: 500px;
+  height: 100px;
+  margin: auto;     
+  font-family: "Barlow";
+  padding-left: 37%;
+  padding-top: 5%;
+}
+
+.container {
+  text-align: left;
+  margin: auto;     
+  font-family: "Barlow";
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #2A4A5C;
+}
+
+p {
+  color: #7B8A92;
+  font-size: 20px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  margin-top: -5px;
+}
+
+
+   /*fonts*/
+.barlow-extralight {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-light {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*fonts*/
+
+
+.social-buttons {
+  display: flex;
+  gap: 30px;
+  height: 40px;
+  margin-top: 60px;
+}
+
+.facebook,
+.linkedin {
+  flex: 1;                     
+  color: white;
+  border: none;
+  padding: 10px 3px;
+  font-size: 14px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #255A9B;     
+}
+.facebook:hover {
+  background-color: #3698fb;
+}
+
+.linkedin {
+  background-color: #0076B6;     
+}
+.linkedin:hover {
+  background-color: #3698fb;
+}
+
+
+
+.divider {
+  text-align: center;
+  margin: 49px 0;
+  color: #2A4A5C;
+}
+
+.line {
+  display: inline-block;
+  width: 95px;
+  border-bottom: 1px solid #afafaf;
+  vertical-align: middle; 
+}
+
+.text {
+  display: inline-block;
+  margin: 0 .75em;
+  vertical-align: middle;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+
+
+.input-group {
+  display: flex; 
+  gap: 40px; 
+  margin-top: 49px;  
+}
+
+.text-group {
+position: relative;
+}
+
+.text-group label  {
+  position: absolute;
+  top: 3px;
+  left: 10px;
+  font-size: 13px;
+  color: #7B8A92;
+}
+
+
+.input-field {
+  flex: 1;                       
+  border: 1px solid #afafaf;
+  border-radius: 2px;
+  font-size: 15px;
+  padding: 20px 10px 5px 10px;
+  box-sizing: border-box;
+  width: 230px;
+  height: 50px;
+}
+
+.input-field:focus {
+  border-left-color: #3698fb;         
+  outline: none;
+  border-left-width: 2px;
+}
+
+
+
+.container2 {
+  text-align: left;
+}
+
+h2 {
+  color: #2A4A5C;
+  padding-top: 80px;
+  font-size: 30px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+}
+
+.container2 p {
+  color: #7B8A92;
+  font-size: 15px;
+}
+
+
+
+.radio-container {
+  display: flex;
+  gap: 50px; 
+  margin-top: 50px;
+  font-family: 'barlow';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.radio-group {
+  position:relative;
+  display: flex;
+  align-items: center;
+}
+
+.radio-group label {
+  padding-left: 10px;
+}
+
+
+.tooltip {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 8px;
+  
+}
+
+.tooltip:hover .tooltip-text {
+  display: inline-block;
+  width: 300px;
+  padding: 9px 9px;
+  margin-top: 30px;
+}
+
+.tooltip-element {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  margin-left: -2px;
+  color: #7B8A92;
+  border: 1px solid #7B8A92; 
+  border-radius: 50%;
+  margin-top: -5px;
+  font-size: 9px;
+}
+
+.tooltip-text {
+  display: none;
+  position: absolute;
+  color:#afafaf;
+  background-color:#fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.tooltip .tooltip-text {
+  top: 50%;
+  left: 1px;
+}
+
+
+
+.myCheckbox {
+  display:inline-block;
+  margin-top: 170px;
+  font-size: 14px;
+  color: #7B8A92;  
+}
+
+.myCheckbox label {
+  display:inline-block;
+  padding-left: 10px;
+ }
+ 
+a {
+  color: #3698fb;
+  text-decoration:underline;
+}
+
+
+
+.create-button button{
+  background-color: #3698fb;
+  border: #3698fb;
+  border-radius: 7px;
+  display: block;
+  margin-top: 60px;
+  width: 250px;
+  height: 40px;
+  color: #EFF6FF;
+  font-weight:500;
+  font-size:medium;
+}
+
+.create-account:hover {
+  background-color:#65b2ff;
+  cursor: pointer;
+}
